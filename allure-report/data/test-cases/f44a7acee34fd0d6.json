@@ -1,0 +1,139 @@
+{
+  "uid" : "f44a7acee34fd0d6",
+  "name" : "Проверяем секцию «Вопросы о важном»",
+  "fullName" : "page_object.tests.test_main.TestMainPage#test_accordion_item_success",
+  "historyId" : "6f889c57cddd7eb5fac204b495284d2c",
+  "time" : {
+    "start" : 1746071371201,
+    "stop" : 1746071375725,
+    "duration" : 4524
+  },
+  "description" : "Тест проверяет, что на главной странице присутствуют все вопросы из списка, и что ответы на них отображаются по клику",
+  "descriptionHtml" : "<p>Тест проверяет, что на главной странице присутствуют все вопросы из списка, и что ответы на них отображаются по клику</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Фикстура драйвера",
+    "time" : {
+      "start" : 1746071357488,
+      "stop" : 1746071371191,
+      "duration" : 13703
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Тест проверяет, что на главной странице присутствуют все вопросы из списка, и что ответы на них отображаются по клику",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываю браузер",
+      "time" : {
+        "start" : 1746071371201,
+        "stop" : 1746071371201,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Открываю страницу https://qa-scooter.praktikum-services.ru/",
+      "time" : {
+        "start" : 1746071371748,
+        "stop" : 1746071374793,
+        "duration" : 3045
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Фикстура драйвера::0",
+    "time" : {
+      "start" : 1746071375729,
+      "stop" : 1746071383299,
+      "duration" : 7570
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Вопросы о важном"
+  }, {
+    "name" : "parentSuite",
+    "value" : "page_object.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMainPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-QSESKI8"
+  }, {
+    "name" : "thread",
+    "value" : "7328-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "page_object.tests.test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "qa_data",
+    "value" : "{'question': 'Сколько это стоит? И как оплатить?', 'answer': 'Сутки — 400 рублей. Оплата курьеру — наличными или картой.'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f44a7acee34fd0d6.json",
+  "parameterValues" : [ "{'question': 'Сколько это стоит? И как оплатить?', 'answer': 'Сутки — 400 рублей. Оплата курьеру — наличными или картой.'}" ]
+}

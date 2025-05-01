@@ -1,0 +1,163 @@
+{
+  "uid" : "6e5b1af79b87be8",
+  "name" : "Тест перехода по клику на логотип Самокат",
+  "fullName" : "page_object.tests.test_order.TestOrderPage#test_click_on_scooter_logo",
+  "historyId" : "a96524d3fc9edc558c840d1c74a2a479",
+  "time" : {
+    "start" : 1746074743643,
+    "stop" : 1746074746632,
+    "duration" : 2989
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Фикстура драйвера",
+    "time" : {
+      "start" : 1746074729281,
+      "stop" : 1746074743643,
+      "duration" : 14362
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываю страницу создания заказа",
+      "time" : {
+        "start" : 1746074743643,
+        "stop" : 1746074746176,
+        "duration" : 2533
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открываю браузер",
+        "time" : {
+          "start" : 1746074743643,
+          "stop" : 1746074743643,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Открываю страницу https://qa-scooter.praktikum-services.ru/order",
+        "time" : {
+          "start" : 1746074744180,
+          "stop" : 1746074746033,
+          "duration" : 1853
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка перехода на главную страницу Самокат",
+      "time" : {
+        "start" : 1746074746177,
+        "stop" : 1746074746631,
+        "duration" : 454
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Фикстура драйвера::0",
+    "time" : {
+      "start" : 1746074746663,
+      "stop" : 1746074752010,
+      "duration" : 5347
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Логотип Самокат"
+  }, {
+    "name" : "parentSuite",
+    "value" : "page_object.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrderPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-QSESKI8"
+  }, {
+    "name" : "thread",
+    "value" : "14716-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "page_object.tests.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e5b1af79b87be8.json",
+  "parameterValues" : [ ]
+}

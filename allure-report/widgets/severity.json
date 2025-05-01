@@ -1,0 +1,131 @@
+[ {
+  "uid" : "9cbfb7d7357e1ced",
+  "name" : "Проверяем секцию «Вопросы о важном»",
+  "time" : {
+    "start" : 1746071398340,
+    "stop" : 1746071402177,
+    "duration" : 3837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff2a4f1537872895",
+  "name" : "Проверяем секцию «Вопросы о важном»",
+  "time" : {
+    "start" : 1746071523114,
+    "stop" : 1746071526987,
+    "duration" : 3873
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e5b1af79b87be8",
+  "name" : "Тест перехода по клику на логотип Самокат",
+  "time" : {
+    "start" : 1746074743643,
+    "stop" : 1746074746632,
+    "duration" : 2989
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f44a7acee34fd0d6",
+  "name" : "Проверяем секцию «Вопросы о важном»",
+  "time" : {
+    "start" : 1746071371201,
+    "stop" : 1746071375725,
+    "duration" : 4524
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a9c18b91a1ae04f",
+  "name" : "Проверка перехода на страницу создания заказа по нижней кнопке",
+  "time" : {
+    "start" : 1746071347272,
+    "stop" : 1746071351211,
+    "duration" : 3939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39824dbff977caf5",
+  "name" : "Проверка перехода на страницу создания заказа по верхней кнопке",
+  "time" : {
+    "start" : 1746071322703,
+    "stop" : 1746071325971,
+    "duration" : 3268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f656151b2777d403",
+  "name" : "Проверяем секцию «Вопросы о важном»",
+  "time" : {
+    "start" : 1746071498265,
+    "stop" : 1746071502251,
+    "duration" : 3986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab4de5e9d2453d70",
+  "name" : "Проверяем секцию «Вопросы о важном»",
+  "time" : {
+    "start" : 1746071423480,
+    "stop" : 1746071427382,
+    "duration" : 3902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba27f8eb4487a785",
+  "name" : "Проверяем секцию «Вопросы о важном»",
+  "time" : {
+    "start" : 1746071472158,
+    "stop" : 1746071477130,
+    "duration" : 4972
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99d090f44de38880",
+  "name" : "Тест перехода по клику на логотип Яндекс",
+  "time" : {
+    "start" : 1746074720297,
+    "stop" : 1746074724410,
+    "duration" : 4113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6c667d0d144923c",
+  "name" : "Проверяем секцию «Вопросы о важном»",
+  "time" : {
+    "start" : 1746071447792,
+    "stop" : 1746071451471,
+    "duration" : 3679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb002c44e477977",
+  "name" : "Позитивное тестирование процесса создания заказа",
+  "time" : {
+    "start" : 1746074692815,
+    "stop" : 1746074700953,
+    "duration" : 8138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e2b02c511a95454",
+  "name" : "Проверяем секцию «Вопросы о важном»",
+  "time" : {
+    "start" : 1746071548186,
+    "stop" : 1746071552025,
+    "duration" : 3839
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

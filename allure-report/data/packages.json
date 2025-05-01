@@ -1,0 +1,238 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "page_object.tests",
+    "children" : [ {
+      "name" : "test_main",
+      "children" : [ {
+        "name" : "Проверка перехода на страницу создания заказа по верхней кнопке",
+        "uid" : "39824dbff977caf5",
+        "parentUid" : "78b7f13a9d4bd57eec6b94270ce5c491",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746071322703,
+          "stop" : 1746071325971,
+          "duration" : 3268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка перехода на страницу создания заказа по нижней кнопке",
+        "uid" : "5a9c18b91a1ae04f",
+        "parentUid" : "78b7f13a9d4bd57eec6b94270ce5c491",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746071347272,
+          "stop" : 1746071351211,
+          "duration" : 3939
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверяем секцию «Вопросы о важном»",
+        "uid" : "f44a7acee34fd0d6",
+        "parentUid" : "78b7f13a9d4bd57eec6b94270ce5c491",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746071371201,
+          "stop" : 1746071375725,
+          "duration" : 4524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'question': 'Сколько это стоит? И как оплатить?', 'answer': 'Сутки — 400 рублей. Оплата курьеру — наличными или картой.'}" ]
+      }, {
+        "name" : "Проверяем секцию «Вопросы о важном»",
+        "uid" : "9cbfb7d7357e1ced",
+        "parentUid" : "78b7f13a9d4bd57eec6b94270ce5c491",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746071398340,
+          "stop" : 1746071402177,
+          "duration" : 3837
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'question': 'Хочу сразу несколько самокатов! Так можно?', 'answer': 'Пока что у нас так: один заказ — один самокат. Если хотите покататься с друзьями, можете просто сделать несколько заказов — один за другим.'}" ]
+      }, {
+        "name" : "Проверяем секцию «Вопросы о важном»",
+        "uid" : "ab4de5e9d2453d70",
+        "parentUid" : "78b7f13a9d4bd57eec6b94270ce5c491",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746071423480,
+          "stop" : 1746071427382,
+          "duration" : 3902
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'question': 'Как рассчитывается время аренды?', 'answer': 'Допустим, вы оформляете заказ на 8 мая. Мы привозим самокат 8 мая в течение дня. Отсчёт времени аренды начинается с момента, когда вы оплатите заказ курьеру. Если мы привезли самокат 8 мая в 20:30, суточная аренда закончится 9 мая в 20:30.'}" ]
+      }, {
+        "name" : "Проверяем секцию «Вопросы о важном»",
+        "uid" : "d6c667d0d144923c",
+        "parentUid" : "78b7f13a9d4bd57eec6b94270ce5c491",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746071447792,
+          "stop" : 1746071451471,
+          "duration" : 3679
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'question': 'Можно ли заказать самокат прямо на сегодня?', 'answer': 'Только начиная с завтрашнего дня. Но скоро станем расторопнее.'}" ]
+      }, {
+        "name" : "Проверяем секцию «Вопросы о важном»",
+        "uid" : "ba27f8eb4487a785",
+        "parentUid" : "78b7f13a9d4bd57eec6b94270ce5c491",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746071472158,
+          "stop" : 1746071477130,
+          "duration" : 4972
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'question': 'Можно ли продлить заказ или вернуть самокат раньше?', 'answer': 'Пока что нет! Но если что-то срочное — всегда можно позвонить в поддержку по красивому номеру 1010.'}" ]
+      }, {
+        "name" : "Проверяем секцию «Вопросы о важном»",
+        "uid" : "f656151b2777d403",
+        "parentUid" : "78b7f13a9d4bd57eec6b94270ce5c491",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746071498265,
+          "stop" : 1746071502251,
+          "duration" : 3986
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'question': 'Вы привозите зарядку вместе с самокатом?', 'answer': 'Самокат приезжает к вам с полной зарядкой. Этого хватает на восемь суток — даже если будете кататься без передышек и во сне. Зарядка не понадобится.'}" ]
+      }, {
+        "name" : "Проверяем секцию «Вопросы о важном»",
+        "uid" : "ff2a4f1537872895",
+        "parentUid" : "78b7f13a9d4bd57eec6b94270ce5c491",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746071523114,
+          "stop" : 1746071526987,
+          "duration" : 3873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'question': 'Можно ли отменить заказ?', 'answer': 'Да, пока самокат не привезли. Штрафа не будет, объяснительной записки тоже не попросим. Все же свои.'}" ]
+      }, {
+        "name" : "Проверяем секцию «Вопросы о важном»",
+        "uid" : "1e2b02c511a95454",
+        "parentUid" : "78b7f13a9d4bd57eec6b94270ce5c491",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746071548186,
+          "stop" : 1746071552025,
+          "duration" : 3839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'question': 'Я жизу за МКАДом, привезёте?', 'answer': 'Да, обязательно. Всем самокатов! И Москве, и Московской области.'}" ]
+      } ],
+      "uid" : "78b7f13a9d4bd57eec6b94270ce5c491"
+    }, {
+      "name" : "test_order",
+      "children" : [ {
+        "name" : "Позитивное тестирование процесса создания заказа",
+        "uid" : "fb002c44e477977",
+        "parentUid" : "bef00c33c80ab4bf90b2ee0d1b183756",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746074692815,
+          "stop" : 1746074700953,
+          "duration" : 8138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест перехода по клику на логотип Яндекс",
+        "uid" : "99d090f44de38880",
+        "parentUid" : "bef00c33c80ab4bf90b2ee0d1b183756",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746074720297,
+          "stop" : 1746074724410,
+          "duration" : 4113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест перехода по клику на логотип Самокат",
+        "uid" : "6e5b1af79b87be8",
+        "parentUid" : "bef00c33c80ab4bf90b2ee0d1b183756",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746074743643,
+          "stop" : 1746074746632,
+          "duration" : 2989
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bef00c33c80ab4bf90b2ee0d1b183756"
+    } ],
+    "uid" : "page_object.tests"
+  } ]
+}
