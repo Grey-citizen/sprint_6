@@ -1,27 +1,26 @@
-import allure
-from base_page import BasePage
 from page_object.locators.main_page_locators import MainPageLocators
+from page_object.data.data import Constants
+from selenium.webdriver.remote.webdriver import WebDriver
+from selenium.webdriver.support import expected_conditions as EC
+from page_object.pages.base_page import BasePage
+
 
 class MainPage(BasePage):
+    def __init__(self, driver: WebDriver):
+        super().__init__(driver, Constants.MAIN_URL)
 
-    @allure.step('Клик на вопрос')
-    def click_to_question(self, num):
-        locator_q_formatted = self.format_locators(MainPageLocators, num)
-        self.scroll_to_element(MainPageLocators.QUESTION_LOCATOR_TO_SCROLL)
-        self.click_to_element(locator_q_formatted)
+    def wait_for_url_to_be(self, url):
+        self.wait.until(EC.url_to_be(url),
+                                   f"Текущий url не совпадает с ожидаемым:"
+                                   f"\n\tТекущий: {self.driver.current_url}"
+                                   f"\n\tОжидаемый: {url}")
 
-    @allure.step('Получение ответа на вопрос')
-    def get_answer_text(self, num):
-        locator_a_formatted = self.format_locators(MainPageLocators.ANSWER_LOCATOR, num)
-        return self.get_text_from_element(locator_a_formatted)
+    def click_on_top_order_button(self):
+        self.find_element(MainPageLocators.HEADER_ORDER_BUTTON).click()
+        self.wait_for_url_to_be(Constants.ORDER_URL)
 
-    @allure.step('Проверяем отввет')
-    def check_question_and_answer(self, num):
-        self.click_to_question(num)
-        return self.get_answer_text(num)
-
-    @allure.step('Получение ответа на вопрос')
-    def check_answer(self, num, my_text):
-        self.click_to_question(num)
-        text = self.get_answer_text(num)
-        return text == my_text
+    def click_on_order_button(self):
+        bottom_order_button_element = self.find_element(MainPageLocators.FOOTER_ORDER_BUTTON)
+        self.scroll_to_element(bottom_order_button_element)
+        bottom_order_button_element.click()
+        self.wait_for_url_to_be(Constants.ORDER_URL)

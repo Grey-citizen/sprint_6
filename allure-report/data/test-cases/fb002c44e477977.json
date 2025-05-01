@@ -1,0 +1,325 @@
+{
+  "uid" : "fb002c44e477977",
+  "name" : "Позитивное тестирование процесса создания заказа",
+  "fullName" : "page_object.tests.test_order.TestOrderPage#test_order_page",
+  "historyId" : "2c7d118c0f12f98fd9bca3ffb72cf507",
+  "time" : {
+    "start" : 1746074692815,
+    "stop" : 1746074700953,
+    "duration" : 8138
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Фикстура драйвера",
+    "time" : {
+      "start" : 1746074678506,
+      "stop" : 1746074692813,
+      "duration" : 14307
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываю браузер",
+      "time" : {
+        "start" : 1746074692816,
+        "stop" : 1746074692816,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Открываю страницу https://qa-scooter.praktikum-services.ru/order",
+      "time" : {
+        "start" : 1746074693328,
+        "stop" : 1746074695038,
+        "duration" : 1710
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Ввожу имя: Григорий",
+      "time" : {
+        "start" : 1746074695180,
+        "stop" : 1746074695707,
+        "duration" : 527
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Ввожу фамилию: Ефанов",
+      "time" : {
+        "start" : 1746074695707,
+        "stop" : 1746074695803,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Ввожу адрес: Великий Новгород",
+      "time" : {
+        "start" : 1746074695803,
+        "stop" : 1746074695948,
+        "duration" : 145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Ввожу телефон: 22270827071",
+      "time" : {
+        "start" : 1746074695948,
+        "stop" : 1746074696051,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Выбираю станцию метро",
+      "time" : {
+        "start" : 1746074696051,
+        "stop" : 1746074698121,
+        "duration" : 2070
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажимаю кнопку подтверждения",
+      "time" : {
+        "start" : 1746074698121,
+        "stop" : 1746074698423,
+        "duration" : 302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Выбираю дату доставки",
+      "time" : {
+        "start" : 1746074698423,
+        "stop" : 1746074699125,
+        "duration" : 702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Выбираю срок аренды",
+      "time" : {
+        "start" : 1746074699125,
+        "stop" : 1746074700128,
+        "duration" : 1003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Выбираю цвет",
+      "time" : {
+        "start" : 1746074700128,
+        "stop" : 1746074700365,
+        "duration" : 237
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Подтверждаю создание заказа",
+      "time" : {
+        "start" : 1746074700365,
+        "stop" : 1746074700951,
+        "duration" : 586
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Нажимаю кнопку подтверждения",
+        "time" : {
+          "start" : 1746074700365,
+          "stop" : 1746074700642,
+          "duration" : 277
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Нажимаю кнопку подтверждения",
+        "time" : {
+          "start" : 1746074700642,
+          "stop" : 1746074700922,
+          "duration" : 280
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "276bb013759669c5",
+      "name" : "stdout",
+      "source" : "276bb013759669c5.txt",
+      "type" : "text/plain",
+      "size" : 49
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 14,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Фикстура драйвера::0",
+    "time" : {
+      "start" : 1746074700954,
+      "stop" : 1746074706555,
+      "duration" : 5601
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Страница создания заказа"
+  }, {
+    "name" : "story",
+    "value" : "Создание заказа"
+  }, {
+    "name" : "tag",
+    "value" : "repeat(2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "page_object.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrderPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-QSESKI8"
+  }, {
+    "name" : "thread",
+    "value" : "14716-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "page_object.tests.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "repeat(2)" ]
+  },
+  "source" : "fb002c44e477977.json",
+  "parameterValues" : [ ]
+}

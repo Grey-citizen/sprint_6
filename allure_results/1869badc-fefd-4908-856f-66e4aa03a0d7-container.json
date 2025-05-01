@@ -1,0 +1,1 @@
+{"uuid": "a2fc68fa-0b06-445d-add5-e78177fc3be5", "children": ["116eceae-f668-4c20-9ca2-eab88568827f"], "befores": [{"name": "Фикстура драйвера", "status": "passed", "start": 1746071306918, "stop": 1746071322695}], "afters": [{"name": "Фикстура драйвера::0", "status": "passed", "start": 1746071325973, "stop": 1746071333548}], "start": 1746071306918, "stop": 1746071333548}

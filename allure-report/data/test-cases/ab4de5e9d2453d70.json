@@ -1,0 +1,139 @@
+{
+  "uid" : "ab4de5e9d2453d70",
+  "name" : "Проверяем секцию «Вопросы о важном»",
+  "fullName" : "page_object.tests.test_main.TestMainPage#test_accordion_item_success",
+  "historyId" : "9817961fb9e3e708ee8a5d0370ca8fdc",
+  "time" : {
+    "start" : 1746071423480,
+    "stop" : 1746071427382,
+    "duration" : 3902
+  },
+  "description" : "Тест проверяет, что на главной странице присутствуют все вопросы из списка, и что ответы на них отображаются по клику",
+  "descriptionHtml" : "<p>Тест проверяет, что на главной странице присутствуют все вопросы из списка, и что ответы на них отображаются по клику</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Фикстура драйвера",
+    "time" : {
+      "start" : 1746071409140,
+      "stop" : 1746071423478,
+      "duration" : 14338
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Тест проверяет, что на главной странице присутствуют все вопросы из списка, и что ответы на них отображаются по клику",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываю браузер",
+      "time" : {
+        "start" : 1746071423481,
+        "stop" : 1746071423481,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Открываю страницу https://qa-scooter.praktikum-services.ru/",
+      "time" : {
+        "start" : 1746071424062,
+        "stop" : 1746071426597,
+        "duration" : 2535
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Фикстура драйвера::0",
+    "time" : {
+      "start" : 1746071427385,
+      "stop" : 1746071433732,
+      "duration" : 6347
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Вопросы о важном"
+  }, {
+    "name" : "parentSuite",
+    "value" : "page_object.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMainPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-QSESKI8"
+  }, {
+    "name" : "thread",
+    "value" : "7328-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "page_object.tests.test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "qa_data",
+    "value" : "{'question': 'Как рассчитывается время аренды?', 'answer': 'Допустим, вы оформляете заказ на 8 мая. Мы привозим самокат 8 мая в течение дня. Отсчёт времени аренды начинается с момента, когда вы оплатите заказ курьеру. Если мы привезли самокат 8 мая в 20:30, суточная аренда закончится 9 мая в 20:30.'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab4de5e9d2453d70.json",
+  "parameterValues" : [ "{'question': 'Как рассчитывается время аренды?', 'answer': 'Допустим, вы оформляете заказ на 8 мая. Мы привозим самокат 8 мая в течение дня. Отсчёт времени аренды начинается с момента, когда вы оплатите заказ курьеру. Если мы привезли самокат 8 мая в 20:30, суточная аренда закончится 9 мая в 20:30.'}" ]
+}

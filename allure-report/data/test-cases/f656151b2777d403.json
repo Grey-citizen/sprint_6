@@ -1,0 +1,139 @@
+{
+  "uid" : "f656151b2777d403",
+  "name" : "Проверяем секцию «Вопросы о важном»",
+  "fullName" : "page_object.tests.test_main.TestMainPage#test_accordion_item_success",
+  "historyId" : "37cdebb9368b4131bd60b0dd9faf21f2",
+  "time" : {
+    "start" : 1746071498265,
+    "stop" : 1746071502251,
+    "duration" : 3986
+  },
+  "description" : "Тест проверяет, что на главной странице присутствуют все вопросы из списка, и что ответы на них отображаются по клику",
+  "descriptionHtml" : "<p>Тест проверяет, что на главной странице присутствуют все вопросы из списка, и что ответы на них отображаются по клику</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Фикстура драйвера",
+    "time" : {
+      "start" : 1746071484473,
+      "stop" : 1746071498263,
+      "duration" : 13790
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Тест проверяет, что на главной странице присутствуют все вопросы из списка, и что ответы на них отображаются по клику",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываю браузер",
+      "time" : {
+        "start" : 1746071498266,
+        "stop" : 1746071498266,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Открываю страницу https://qa-scooter.praktikum-services.ru/",
+      "time" : {
+        "start" : 1746071499015,
+        "stop" : 1746071501419,
+        "duration" : 2404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Фикстура драйвера::0",
+    "time" : {
+      "start" : 1746071502255,
+      "stop" : 1746071509055,
+      "duration" : 6800
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Вопросы о важном"
+  }, {
+    "name" : "parentSuite",
+    "value" : "page_object.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMainPage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-QSESKI8"
+  }, {
+    "name" : "thread",
+    "value" : "7328-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "page_object.tests.test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "qa_data",
+    "value" : "{'question': 'Вы привозите зарядку вместе с самокатом?', 'answer': 'Самокат приезжает к вам с полной зарядкой. Этого хватает на восемь суток — даже если будете кататься без передышек и во сне. Зарядка не понадобится.'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f656151b2777d403.json",
+  "parameterValues" : [ "{'question': 'Вы привозите зарядку вместе с самокатом?', 'answer': 'Самокат приезжает к вам с полной зарядкой. Этого хватает на восемь суток — даже если будете кататься без передышек и во сне. Зарядка не понадобится.'}" ]
+}
